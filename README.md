@@ -11,6 +11,15 @@
 - `projetos/` — trabalhos práticos
 - `notas/` — anotações e resumos
 
+## Notas de estudo
+- [Aula 1 — Introdução ao ML](notas/estudo-aula01-introducao-ml.md)
+- [Aula 2 — KNN](notas/estudo-aula02-knn.md)
+- [Aula 3 — Regressão linear](notas/estudo-aula03-regressao-linear.md)
+- [Aula 4 — Regressão logística](notas/estudo-aula04-regressao-logistica.md)
+- [Aula 5 — Métricas de classificação](notas/estudo-aula05-metricas-classificacao.md)
+- [Aula 6 — SVM e PLN](notas/estudo-aula06-svm-e-pln.md)
+- [Aula 7 — Não-supervisionado e K-Means](notas/estudo-aula07-nao-supervisionado-kmeans.md)
+
 ## Avaliação
 - **Prova:** peso 7,0 (prova é PRÁTICA — participar das aulas é essencial)
 - **Estudo Dirigido:** peso 3,0
