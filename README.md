@@ -24,6 +24,16 @@
 - **Prova:** peso 7,0 (prova é PRÁTICA — participar das aulas é essencial)
 - **Estudo Dirigido:** peso 3,0
 
+## Entregas 1º bimestre
+- **ED1 / Trabalho 1 — KNN** (`projetos/ED1/`) — base `apples_and_oranges.csv`, prazo **24/09/2026**
+  - Código: `knn_apples_oranges.py`
+  - Relatório: `ED1-relatorio.md` · entrega Word: `ED1-entrega-Lucas_Muller_Scuzziato.docx`
+  - Enunciado: `material/provas/ED1/`
+- **AV1 / Prova prática 1 — Regressão linear** (`projetos/AV1/`) — base `student_scores.csv`
+  - Código: `regressao_student_scores.py`
+  - Relatório: `AV1-relatorio.md` · entrega Word: `AV1-entrega-Lucas_Muller_Scuzziato.docx`
+  - Enunciado: `material/provas/AV1/`
+
 ## Conteúdo das aulas
 
 ### Aula Inaugural
@@ -88,6 +98,10 @@
 | `material/DATAFRAMES EM PYTHON - DATA CLEANING.pdf` | Limpeza de dados (dropna, fillna, duplicados) |
 | `material/exercicios/Aula30072026.ipynb` | Notebook da aula (Colab) |
 | `material/exercicios/Datasets/student_scores.csv` | Dataset de exemplo (horas de estudo vs score) |
+| `material/provas/ED1/` | Enunciado Trabalho 1 (KNN) + `apples_and_oranges.csv` |
+| `material/provas/AV1/` | Enunciado Prova prática 1 (regressão) + `student_scores.csv` |
+| `projetos/ED1/` | Solução completa do ED1 (código, figuras, relatório, DOCX) |
+| `projetos/AV1/` | Solução completa da AV1 (código, figuras, relatório, DOCX) |
 
 ## Bases de dados usadas nas aulas
 - Espécies de flores Iris | Diabetes (Pima Indians) | Câncer de Mama (Wisconsin)

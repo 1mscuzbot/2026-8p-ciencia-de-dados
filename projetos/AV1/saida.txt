@@ -1,0 +1,56 @@
+=== Base student_scores.csv ===
+Amostras: 25
+Colunas: ['Hours', 'Scores']
+
+Estatísticas descritivas:
+           Hours     Scores
+count  25.000000  25.000000
+mean    5.012000  51.480000
+std     2.525094  25.286887
+min     1.100000  17.000000
+25%     2.700000  30.000000
+50%     4.800000  47.000000
+75%     7.400000  75.000000
+max     9.200000  95.000000
+
+Primeiras linhas:
+ Hours  Scores
+   2.5      21
+   5.1      47
+   3.2      27
+   8.5      75
+   3.5      30
+
+Grafico A salvo em figuras/A_regressao_reta.png
+=== C. Coeficientes e metricas ===
+Modelo: y_hat = beta0 + beta1 * x
+beta0 (intercepto): 2.826892
+beta1 (inclinacao): 9.682078
+Interpretacao: a cada +1 hora de estudo, o score previsto sobe cerca de 9.68 pontos.
+
+Treino: 20 | Teste: 5 | test_size=0.2
+--- No conjunto de teste ---
+R2 (coef. de determinacao): 0.9678
+MSE (erro quadratico medio): 18.9432
+RMSE: 4.3524
+MAE (erro absoluto medio): 3.9208
+
+R2 no conjunto completo (referencia): 0.9528
+
+Comparacao no teste (Hours | Score real | Score previsto | erro):
+   8.3 h |  81.0 |  83.19 | erro= +2.19
+   2.5 h |  30.0 |  27.03 | erro= -2.97
+   2.5 h |  21.0 |  27.03 | erro= +6.03
+   6.9 h |  76.0 |  69.63 | erro= -6.37
+   5.9 h |  62.0 |  59.95 | erro= -2.05
+
+=== D. Previsoes para horas fora / diferentes da base ===
+ Hours  Score_previsto
+   1.0           12.51
+   4.0           41.56
+   6.5           65.76
+   9.5           94.81
+  10.0           99.65
+
+Grafico D salvo em figuras/D_previsoes_novas.png
+Concluido.

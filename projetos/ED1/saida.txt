@@ -1,0 +1,48 @@
+=== Base apples_and_oranges.csv ===
+Amostras: 40
+Colunas: ['Weight', 'Size', 'Class']
+Contagem por classe:
+Class
+orange    20
+apple     20
+
+Primeiras linhas:
+ Weight  Size  Class
+     69  4.39 orange
+     69  4.21 orange
+     65  4.09 orange
+     72  5.85  apple
+     67  4.70 orange
+
+Gráfico A salvo em figuras/A_scatter_classes.png
+=== C. Desempenho no conjunto de teste ===
+K = 5 | distância = euclidiana | test_size = 0.3
+Treino: 28 | Teste: 12
+Acurácia: 1.0000 (100.00%)
+
+Matriz de confusão (linhas = real, colunas = predito)
+          pred_apple  pred_orange
+apple              6            0
+orange             0            6
+
+Relatório de classificação:
+              precision    recall  f1-score   support
+
+       apple      1.000     1.000     1.000         6
+      orange      1.000     1.000     1.000         6
+
+    accuracy                          1.000        12
+   macro avg      1.000     1.000     1.000        12
+weighted avg      1.000     1.000     1.000        12
+
+Gráfico C salvo em figuras/C_matriz_confusao.png
+=== D. Previsões para novos valores (fora do CSV) ===
+ Weight  Size Class_prevista
+     66   4.2         orange
+     71   5.4          apple
+     68   4.9         orange
+     74   5.6          apple
+     72   4.5          apple
+
+Gráfico D salvo em figuras/D_previsoes_novas.png
+Concluído.
